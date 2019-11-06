@@ -1,4 +1,4 @@
-package polinema.ac.id.recyclerviewsangatsederhana.adapters;
+package id.ac.polinema.recyclerviewsangatsederhana.adapters;
 
 
 import android.content.Context;
@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
 
 import java.util.List;
 

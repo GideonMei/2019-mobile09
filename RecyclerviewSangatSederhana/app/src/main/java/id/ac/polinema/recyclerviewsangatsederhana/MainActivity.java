@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         //menambahkan hero baru ke listSuperhero
         listSuperHero.add(hero);
 
-        polinema.ac.id.recyclerviewsangatsederhana.adapters.SuperHeroAdapter superHeroAdapter = new polinema.ac.id.recyclerviewsangatsederhana.adapters.SuperHeroAdapter(listSuperHero);
+        id.ac.polinema.recyclerviewsangatsederhana.adapters.SuperHeroAdapter superHeroAdapter = new id.ac.polinema.recyclerviewsangatsederhana.adapters.SuperHeroAdapter(listSuperHero);
         rvSuperHero.setAdapter(superHeroAdapter);
         rvSuperHero.setLayoutManager(new LinearLayoutManager(this));
     }
